@@ -1,7 +1,3 @@
-:root {
-    --clr--slate600: #708090; /* Slate gray color or any color of your choice */
-}
-
 .header{
    display:flex;
    justify-content: flex-end; 
@@ -9,14 +5,15 @@
    padding-top: 2rem;
    padding-bottom: 2rem;
 }
+
 .header__menu{
     display: none;
 }
 
 .header__bars{
-    color: var(--clr--slate600);
-    width: var(--size--2xl);
-    height: var(--size--2xl);
+    color: var(--clr-slate600);
+    width: var(--size-2xl);
+    height: var(--size-2xl);
     display: block;
 }
 
@@ -73,8 +70,8 @@
     
     .header_resume{
         font-size: var(--size--xl);
-    
     }
+
     .header__bars{
         display: none;
     }
