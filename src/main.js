@@ -7,5 +7,9 @@ import "../styles/components/feature.css"
 import "../styles/components/work.css"
 import "../styles/components/contact.css"
 import "../styles/components/footer.css"
-import "../styles/util.css"
+import "../styles/components/mobile.css"
+import "../styles/util.css";
 
+import mobileNav from "./utils/mobile-nav";
+
+mobileNav()
